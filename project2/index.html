@@ -1,0 +1,134 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Featured Products & Courses</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .section {
+      margin: 20px;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-bottom: 1px solid #ddd;
+      border-radius: 8px 8px 0 0;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+      font-size: 18px;
+      color: #444;
+    }
+
+    .card p {
+      margin: 5px 0;
+      color: #666;
+    }
+
+    .card .price {
+      font-weight: bold;
+      color: #e91e63;
+    }
+
+    .card button {
+      margin: 10px 0;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background: #e91e63;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background: #c2185b;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Featured Products Section -->
+  <div class="section">
+    <h2>Featured Products</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="ryzen-7-7700-01-200x200.webp" alt="Product 1">
+        <h3>AMD Ryzen 7 7700</h3>
+        <p class="price">৳49,999</p>
+        <p>Save: ৳8,001 (-14%)</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="card">
+        <img src="amd-ryzen-5-3400g-processor-desktop-pc-005-200x200.webp" alt="Product 2">
+        <h3>AMD Ryzen 5 3400G</h3>
+        <p class="price">৳20,199</p>
+        <p>Save: ৳4,001 (-17%)</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="card">
+        <img src="gs3-200x200.webp" alt="Product 3">
+        <h3>Black Shark GS3</h3>
+        <p class="price">৳6,999</p>
+        <p>Save: ৳300 (-4%)</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Web & Software Section -->
+  <div class="section">
+    <h2>Web & Software</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="course_1662795698.jpg" alt="Course 1">
+        <h3>MERN Stack Development</h3>
+        <p>680 Reviews, 850 Students</p>
+        <button>Enroll Now</button>
+      </div>
+      <div class="card">
+        <img src="course_1673929467.jpg" alt="Course 2">
+        <h3>App Development With Kotlin</h3>
+        <p>1,220 Reviews, 2,400 Students</p>
+        <button>Enroll Now</button>
+      </div>
+      <div class="card">
+        <img src="course_1662801340.jpg" alt="Course 3">
+        <h3>Python with Django</h3>
+        <p>256 Reviews, 320 Students</p>
+        <button>Enroll Now</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
